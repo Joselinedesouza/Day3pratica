@@ -74,11 +74,11 @@ class Carrello {
 public class Main {
     public static void main(String[] args) {
         // Creo articoli
-        Articolo articolo1 = new Articolo("A001", "Mouse Wireless", 25.99, 10);
-        Articolo articolo2 = new Articolo("A002", "Tastiera Meccanica", 89.99, 5);
+        Articolo articolo1 = new Articolo("A001", "Sgabello", 20.99, 10);
+        Articolo articolo2 = new Articolo("A002", "Corda", 1.99, 5);
 
         // Creo cliente
-        Cliente cliente1 = new Cliente("C001", "Mario Rossi", "mario.rossi@example.com", new Date());
+        Cliente cliente1 = new Cliente("C001", "Topo gigio", "topo.gigio@email.com", new Date());
 
         // Creo carrello
         Carrello carrello1 = new Carrello(cliente1);
